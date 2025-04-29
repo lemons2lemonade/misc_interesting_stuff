@@ -10,7 +10,7 @@ using namespace H5;
 
 int main() {
 
-    std::ifstream input_file("/mnt/pny_4tb/code/flask_stuff/pokemon_card_search_engine/complete_set_of_pokemon_card_pairs.json");
+    std::ifstream input_file("pokemon_card_pairs.json");
     nlohmann::json json_data;
     input_file >> json_data;
     input_file.close();
