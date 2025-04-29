@@ -176,4 +176,4 @@ Based on the development log and the current state, potential next steps could i
 3. Optimize the backward pass for training scenarios
 4. Add architecture-specific optimizations for different NVIDIA GPUs
 5. Implement additional masking strategies beyond causal and sliding window
-6. Improve documentation and examples for different use cases
+6. Improve documentation and examples for different use cases 
